@@ -1,0 +1,12 @@
+com\backend\tierracafe\repositories\UsuarioRepository.class
+com\backend\tierracafe\controllers\ProductoController.class
+com\backend\tierracafe\services\UsuarioService.class
+com\backend\tierracafe\models\OrdenesCompra.class
+com\backend\tierracafe\models\UsuarioModel.class
+com\backend\tierracafe\models\ProductoModel.class
+com\backend\tierracafe\services\ProductoService.class
+com\backend\tierracafe\controllers\UsuarioController.class
+com\backend\tierracafe\repositories\ProductoRepository.class
+com\backend\tierracafe\controllers\SecurityConfig.class
+com\backend\tierracafe\TierraCafeApplication.class
+com\backend\tierracafe\controllers\PrincipalController.class
