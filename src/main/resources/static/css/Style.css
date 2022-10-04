@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  top: 10px;
+  right: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+
+.cuerpo {
+  margin-top: 10px;
+}
+
+.cuerpo1 {
+  margin-top: 140px;
+}
+
+.cuerpo2 {
+  margin-top: 160px;
+}
+
+.divImg
+{
+  height: 200px;
+  width: 200px;
+}
+
+#imgQuienesSomos{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.main-content {
+  width: 90%;
+  margin: auto;
+}
+
+.main-content p {
+  width: 50%;
+  margin: auto;
+  margin-top: 200px;
+  text-align: justify
+}
+
+.main-content img {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 100px;
+}
+
+.main-content form {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.main-content table {
+  
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  /*position: fixed;*/
+  bottom: 0;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 1px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  /* border: 1px solid red;*/
+}
+
+.ejemplo {
+  background: yellow;
+  width: 100%;
+  padding: 20px;
+}
+
+.ejemplo img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.ejemplo h4 {
+  text-align: center;
+}
+
+.ejemplo p {
+  text-align: justify;
+}
+
+.btn-ejemplo {
+  padding: 0 10px 0 10px;
+  margin: auto;
+  display: block;
+}
+
+.ejemplo-1 {
+  background: orangered;
+  width: 100%;
+  height: 400px;
+
+}
+
+.ejemplo-2 {
+  background: blue;
+  width: 100%;
+  height: 400px;
+}
+
+.ejemplo-3 {
+  background: blueviolet;
+  width: 100%;
+  height: 400px;
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
+=============================================*/
+
+@media(min-width:1200px) {
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+
+  .col-lg-0 {
+    display: none;
+  }
+
+
+}
+
+/*=============================================
+PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
+=============================================*/
+
+@media(max-width:1199px) and (min-width:992px) {
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+  .col-md-0 {
+    display: none;
+  }
+
+}
+
+/*=============================================
+PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
+=============================================*/
+
+@media(max-width:991px) and (min-width:768px) {
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+
+  .col-sm-0 {
+    display: none;
+  }
+
+}
+
+/*=============================================
+PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical 320px
+=============================================*/
+
+@media(max-width:767px) {
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .col-xs-11 {
+    width: 91.66666667%;
+  }
+
+  .col-xs-10 {
+    width: 83.33333333%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-8 {
+    width: 66.66666667%;
+  }
+
+  .col-xs-7 {
+    width: 58.33333333%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-5 {
+    width: 41.66666667%;
+  }
+
+  .col-xs-4 {
+    width: 33.33333333%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-2 {
+    width: 16.66666667%;
+  }
+
+  .col-xs-1 {
+    width: 8.33333333%;
+  }
+
+  .col-xs-0 {
+    display: none;
+  }
+  .main-content p{
+    width: 100%;
+  }
+  .main-content img{
+    border-radius: 5px;
+    transition-duration: 1s;
+  }
+
+}
+
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
